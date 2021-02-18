@@ -1,0 +1,2 @@
+# Spring Boot sample web api
+To start the API run the command `gradlew bootRun` you can use the parameter `--args='--spring.profiles.active={profile}'` substituting '{profile}' with the desired profile in which to run the app.
