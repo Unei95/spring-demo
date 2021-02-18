@@ -1,4 +1,4 @@
-package com.github.unei95.spring.demo.models;
+package com.github.unei95.spring.demo.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ public class User {
     private String lastName;
     private String email;
 
-    protected User() {}
+    public User() {}
 
     public User(String firstName, String lastName, String email) {
         this.firstName = firstName;
